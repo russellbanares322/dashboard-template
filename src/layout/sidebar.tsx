@@ -1,3 +1,4 @@
 export default function Sidebar() {
-  return <div className="h-full w-full bg-red">Sidebar Content</div>;
+  // Expanded width: 300px, UnExpanded width: 80px
+  return <div className="h-auto w-[300px] bg-red-300 p-4">Sidebar Content</div>;
 }

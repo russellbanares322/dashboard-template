@@ -6,9 +6,9 @@ type DashboardLayoutProps = {
 
 export default function DashboardLayout({ children }: DashboardLayoutProps) {
   return (
-    <div className="grid grid-cols-2">
+    <div className="flex min-h-screen h-full">
       <Sidebar />
-      <div className="bg-white">{children}</div>
+      <div className="bg-blue-400 w-full p-4">{children}</div>
     </div>
   );
 }
