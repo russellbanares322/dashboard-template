@@ -11,7 +11,6 @@ import {
 import { Calendar, Home, LucideInbox, Settings } from "lucide-react";
 
 export function AppSidebar() {
-  // Menu items.
   const items = [
     {
       title: "Home",
