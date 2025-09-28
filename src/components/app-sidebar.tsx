@@ -8,7 +8,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { Calendar, Home, LucideInbox, Search, Settings } from "lucide-react";
+import { Calendar, Home, LucideInbox, Settings } from "lucide-react";
 
 export function AppSidebar() {
   // Menu items.
@@ -27,11 +27,6 @@ export function AppSidebar() {
       title: "Calendar",
       url: "#",
       icon: Calendar,
-    },
-    {
-      title: "Search",
-      url: "#",
-      icon: Search,
     },
     {
       title: "Settings",
