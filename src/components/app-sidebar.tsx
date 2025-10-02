@@ -8,31 +8,15 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { Calendar, Home, LucideInbox, Settings } from "lucide-react";
+import { sidebarItems } from "@/data/sidebar-items";
+// import { Calendar, Home, LucideInbox, Settings, LayoutDashboard } from "lucide-react";
 
 export function AppSidebar() {
-  const items = [
-    {
-      title: "Home",
-      url: "#",
-      icon: Home,
-    },
-    {
-      title: "Inbox",
-      url: "#",
-      icon: LucideInbox,
-    },
-    {
-      title: "Calendar",
-      url: "#",
-      icon: Calendar,
-    },
-    {
-      title: "Settings",
-      url: "#",
-      icon: Settings,
-    },
-  ];
+  const items = sidebarItems.map((item) => ({
+    title: item.name,
+    url: item.path,
+    icon: item.icon,
+  }));
 
   return (
     <Sidebar>
