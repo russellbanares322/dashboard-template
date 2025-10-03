@@ -14,4 +14,10 @@ export const sidebarItems: Sidebar[] = [
     breadCrumbTitle: "Settings",
     icon: Settings,
   },
+  {
+    name: "Settings",
+    path: "/settings",
+    breadCrumbTitle: "Settings",
+    icon: Settings,
+  },
 ];
