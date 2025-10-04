@@ -9,7 +9,7 @@ export const sidebarItems: Sidebar[] = [
     icon: LayoutDashboard,
   },
   {
-    name: "Settings",
+    name: "Analytics",
     path: "/settings",
     breadCrumbTitle: "Settings",
     icon: Settings,
