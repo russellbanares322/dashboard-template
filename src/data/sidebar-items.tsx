@@ -10,8 +10,8 @@ export const sidebarItems: Sidebar[] = [
   },
   {
     name: "Analytics",
-    path: "/settings",
-    breadCrumbTitle: "Settings",
+    path: "/analytics",
+    breadCrumbTitle: "Analytics",
     icon: Settings,
   },
   {
