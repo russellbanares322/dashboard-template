@@ -1,7 +1,6 @@
 import { LayoutDashboard, Settings } from "lucide-react";
 import { Sidebar } from "./types";
 
-// Instantiate route pages
 export const sidebarItems: Sidebar[] = [
   {
     name: "Dashboard",
