@@ -1,4 +1,4 @@
-import { LayoutDashboard, Settings } from "lucide-react";
+import { ChartColumnIncreasing, LayoutDashboard, Settings } from "lucide-react";
 import { Sidebar } from "./types";
 
 export const sidebarItems: Sidebar[] = [
@@ -12,7 +12,7 @@ export const sidebarItems: Sidebar[] = [
     name: "Analytics",
     path: "/analytics",
     breadCrumbTitle: "Analytics",
-    icon: Settings,
+    icon: ChartColumnIncreasing,
   },
   {
     name: "Settings",
