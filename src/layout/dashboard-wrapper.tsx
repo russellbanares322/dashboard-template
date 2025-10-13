@@ -10,7 +10,7 @@ export function DashboardWrapper({ children }: DashboardWrapperProps) {
   return (
     <SidebarProvider>
       <AppSidebar />
-      <main>
+      <main className="w-full">
         <SidebarTrigger />
         {children}
       </main>
