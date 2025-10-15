@@ -5,7 +5,6 @@ type DashboardWrapperProps = {
   children: React.ReactNode;
 };
 
-// Instantiate real data
 export function DashboardWrapper({ children }: DashboardWrapperProps) {
   return (
     <SidebarProvider>
