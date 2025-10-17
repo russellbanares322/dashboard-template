@@ -1,4 +1,9 @@
-import { ChartColumnIncreasing, LayoutDashboard, Settings } from "lucide-react";
+import {
+  ChartColumnIncreasing,
+  CirclePercent,
+  LayoutDashboard,
+  Settings,
+} from "lucide-react";
 import { Sidebar } from "./types";
 
 export const sidebarItems: Sidebar[] = [
@@ -19,5 +24,11 @@ export const sidebarItems: Sidebar[] = [
     path: "/settings",
     breadCrumbTitle: "Settings",
     icon: Settings,
+  },
+  {
+    name: "Sales",
+    path: "/sales",
+    breadCrumbTitle: "Sales",
+    icon: CirclePercent,
   },
 ];
