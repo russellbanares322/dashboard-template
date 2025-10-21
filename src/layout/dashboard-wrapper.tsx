@@ -4,7 +4,6 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 type DashboardWrapperProps = {
   children: React.ReactNode;
 };
-// Instantiate provider wrapper
 export function DashboardWrapper({ children }: DashboardWrapperProps) {
   return (
     <SidebarProvider>
