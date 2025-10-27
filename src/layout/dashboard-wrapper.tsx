@@ -5,7 +5,6 @@ type DashboardWrapperProps = {
   children: React.ReactNode;
 };
 export function DashboardWrapper({ children }: DashboardWrapperProps) {
-  // Instantiate provider
   return (
     <SidebarProvider>
       <AppSidebar />
