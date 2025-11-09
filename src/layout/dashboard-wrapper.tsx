@@ -5,7 +5,6 @@ type DashboardWrapperProps = {
   children: React.ReactNode;
 };
 export function DashboardWrapper({ children }: DashboardWrapperProps) {
-  // Improve this layout
   return (
     <SidebarProvider>
       <AppSidebar />
