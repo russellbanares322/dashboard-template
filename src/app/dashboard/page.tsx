@@ -1,4 +1,4 @@
 export default function Dashboard() {
-  // Display real data
+  // Instantiate dummy chart components
   return <div>Dashboard Page</div>;
 }
