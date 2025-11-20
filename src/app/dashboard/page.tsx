@@ -24,7 +24,6 @@ const chartConfig = {
 } satisfies ChartConfig;
 
 export default function Dashboard() {
-  // Add more charts
   const Chart = () => {
     return (
       <ChartContainer
