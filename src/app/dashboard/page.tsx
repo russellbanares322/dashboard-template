@@ -23,6 +23,8 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
+// Display charts
+
 export default function Dashboard() {
   const Chart = () => {
     return (
