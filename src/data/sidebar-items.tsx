@@ -9,7 +9,7 @@ import { Sidebar } from "./types";
 export const sidebarItems: Sidebar[] = [
   {
     name: "Dashboard",
-    path: "/dashboard",
+    path: "/",
     breadCrumbTitle: "Dashboard",
     icon: LayoutDashboard,
   },

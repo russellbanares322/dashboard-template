@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Sidebar,
   SidebarContent,
@@ -9,9 +11,11 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 import { sidebarItems } from "@/data/sidebar-items";
-// import { Calendar, Home, LucideInbox, Settings, LayoutDashboard } from "lucide-react";
+import { cn } from "@/lib/utils";
+import { usePathname } from "next/navigation";
 
 export function AppSidebar() {
+  const pathname = usePathname();
   const items = sidebarItems.map((item) => ({
     title: item.name,
     url: item.path,
@@ -26,7 +30,15 @@ export function AppSidebar() {
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (
-                <SidebarMenuItem key={item.title}>
+                <SidebarMenuItem
+                  className={cn(
+                    "rounded-md",
+                    item?.url === pathname
+                      ? "bg-neutral-800 text-white"
+                      : "text-black"
+                  )}
+                  key={item.title}
+                >
                   <SidebarMenuButton asChild>
                     <a href={item.url}>
                       <item.icon />
